@@ -1,0 +1,127 @@
+section {
+    background: url(../../assets/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: calc(90vh - 80px);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+section label.banner-text {
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700 !important;
+}
+
+section p {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 300;
+}
+
+section.form {
+    width: 90%;
+    margin: 2% auto;
+    background: #ffcb05;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+div.form-container {
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+    height: 90%;
+}
+
+div.inputs {
+    width: 100%;
+}
+
+div.inputs div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.inputs div>input {
+    border: 0 !important;
+    padding: 20px !important;
+    height: 60px;
+    width: 45% !important;
+    box-shadow: none !important;
+    font-size: 18px;
+    color: #000;
+    float: none !important;
+    margin-bottom: 40px;
+    outline: none;
+}
+
+div.inputs div>input:hover {
+    border: 1px solid #000;
+}
+
+::placeholder {
+    font-weight: 500;
+}
+
+div.checkBox {
+    width: 100%;
+    text-align: center;
+}
+
+div.checkBox label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px !important;
+    line-height: 18px !important;
+    position: relative;
+    color: #000;
+    max-width: none;
+    max-width: initial;
+}
+
+div.checkBox label input {
+    margin-right: 10px;
+}
+
+div.checkBox label span {
+    color: #36a9e1;
+}
+
+div.form-button {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+div.form-button button {
+    outline: none;
+    padding: 20px 80px;
+    background: #000;
+    color: #fff !important;
+    border: 1px solid #000;
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+div.form-button button:hover {
+    background: #ffcb05;
+    color: #000 !important;
+}
